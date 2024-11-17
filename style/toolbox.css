@@ -1,0 +1,39 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: darkgray;
+}
+
+.navbar{
+    width: 100%;
+    height: 5vh;
+    padding: 0.3em;
+}
+
+.navbar li{
+    display: inline;
+    margin: 0 2vh;
+    padding: 0 0.3vh; 
+}
+
+.navbar a{
+    text-decoration: none; 
+}
+
+/*--------------Les Fonts--------------------*/
+
+@font-face {
+    font-family: "AlissTitre";
+    src: url("../font/hlnhenha.ttf");
+}
+
+@font-face {
+    font-family: "marker";
+    src: url("../font/PermanentMarker-Regular.ttf");
+}
+
+@font-face {
+    font-family: "furtura";
+    src: url("../font/futuraMediumBt.ttf");
+}

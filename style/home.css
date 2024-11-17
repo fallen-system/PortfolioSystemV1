@@ -1,0 +1,121 @@
+body {
+    background-image: url(../img/agnis-leznins-DXa7-nmPKSk-unsplash.jpg);
+    background-position:bottom;
+    background-size: cover;
+    font-family: helvetica;
+}
+
+#header {
+
+    width: 100%;
+    height: 5vh;
+    background-color: black;
+    color: aliceblue;
+    text-align: center;
+    margin: 0;
+    padding: 0.3em;
+    border-radius: 0 0 20% 20%;
+}
+
+#footer {
+    width: 100%;
+    margin: 0;
+    text-align: center;
+    background-color: black;
+    color: aliceblue;
+    height: 5vh;
+    padding: 0.3em;
+    border-radius: 20% 20% 0 0;
+    margin-top: 10vh;
+}
+
+#footer p {
+    text-decoration: none;
+    color: aliceblue;
+}
+
+h1 {
+    margin-top: 6.8vh;
+    vertical-align: middle;
+    text-align: center;
+    font-family: marker;
+    color: aliceblue;
+    font-size: 3em;
+    background: #60606090;
+}
+
+#choix {
+    display: flex;
+    padding: 1em;
+    margin-top: 9vh;
+
+}
+
+.InOption {
+    flex: 1 1 45vw;
+    height: 50vh;
+    padding: 0.2em;
+    border: solid 0.1em black;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    box-sizing: border-box;
+    
+    transition-duration: 0.5s;
+}
+
+.InOption h2 {
+    flex: auto;
+    text-align: center;
+    font-size: 3em;
+}
+
+
+#elyrr {
+    background-image: url(../img/ElyrrBanner.png);
+    background-position: center;
+    background-size: cover;
+    border-radius: 15% 0 0 15%;
+    font-family: futura;
+    color: darkviolet;
+
+}
+
+#aliss {
+    background-image: url(../img/AkaAliss.jpg);
+    background-position: top;
+    background-size: cover;
+    border-radius: 0 15% 15% 0;
+    font-family: AlissTitre;
+    color: orange;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+/*-----Transition----*/
+
+.InOption:hover {
+    flex: 1 1 75vw;
+    transition-duration: 0.5s;
+    border: none;
+    align-items: center;
+
+
+}
+
+#aliss:hover {
+    color: aliceblue;
+    border-radius: 0;
+    border: solid 0.5em orange;
+}
+
+
+#elyrr:hover {
+    color: aliceblue;
+    border-radius: 0;
+    border: solid 0.5em blue;
+}
